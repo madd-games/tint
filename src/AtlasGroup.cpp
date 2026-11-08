@@ -103,7 +103,9 @@ namespace tint {
                     .x0 = x0, .y0 = y0,
                     .x1 = x1, .y1 = y1,
                     .u0 = u0, .v0 = v0,
-                    .u1 = u1, .v1 = v1
+                    .u1 = u1, .v1 = v1,
+                    .cursorX = cursorX + sg.xAdvance / 64.f,
+                    .cursorY = cursorY + sg.yAdvance / 64.f
                 });
             }
 

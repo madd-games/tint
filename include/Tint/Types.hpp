@@ -75,6 +75,9 @@ namespace tint {
         // texture coordinates
         float u0 = 0.f, v0 = 0.f; // top-left
         float u1 = 0.f, v1 = 0.f; // bottom-right
+
+        // cursor after this glyph
+        float cursorX = 0.f, cursorY = 0.f;
     };
 
     struct TextMetrics {
